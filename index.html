@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      
+    <script language="javascript">
+        function resultado(){
+           
+        if (document.form.nome.value=="" || document.form.nome.value.length < 6){
+        alert("Favor Digitar o nome ")
+        document.form.nome.focus()
+
+              }
+
+        }
+
+        </script>
+</head>
+<body>
+  
+
+    <form name='form'>
+
+        Letra : <br><br>
+        <input type="text" name="nome"><br><br>
+
+
+
+        <input type="button" value="Resultado" onClick="resultado()">
+        </form>
+
+
+
+
+</body>
+</html>
